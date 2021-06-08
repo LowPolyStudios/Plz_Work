@@ -474,3 +474,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.08-04.22.09:280][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
 [2021.06.08-04.22.10:022][  0]LogInit: Setting process to per monitor DPI aware
 [2021.06.08-04.22.10:365][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.08-04.22.12:008][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.08-04.22.12:008][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
