@@ -5671,6 +5671,7 @@ Script Stack (0 frames):
 [2021.06.08-18.21.26:381][850]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (418)
 [2021.06.08-18.21.26:421][850]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (416)
 [2021.06.08-18.21.26:533][850]LogModuleManager: Shutting down and abandoning module GitSourceControl (414)
+<<<<<<< Updated upstream
 [2021.06.08-18.21.26:554][850]LogModuleManager: Shutting down and abandoning module SourceControl (413)
 [2021.06.08-18.21.26:554][850]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (410)
 [2021.06.08-18.21.26:554][850]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (408)
@@ -5883,3 +5884,5 @@ Script Stack (0 frames):
 [2021.06.08-18.21.28:568][850]LogD3D11RHI: CleanupD3DDevice
 [2021.06.08-18.21.28:645][850]LogExit: Exiting.
 [2021.06.08-18.21.28:681][850]Log file closed, 06/08/21 11:21:28
+=======
+>>>>>>> Stashed changes
