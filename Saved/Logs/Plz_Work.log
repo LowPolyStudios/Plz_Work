@@ -3569,3 +3569,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.08-19.02.23:659][347]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.08-19.02.23:659][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/RepresentativeIsland_BuiltData.RepresentativeIsland_BuiltData
 [2021.06.08-19.02.23:659][347]LogContentValidation: Display: Validating World /Game/Levels/RepresentativeIsland.RepresentativeIsland
+[2021.06.08-19.02.39:732][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (rep_islandprops_Cylinder21)
+[2021.06.08-19.02.40:290][ 33]Cmd: SELECT NONE
+[2021.06.08-19.03.34:198][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.06.08-19.03.34:608][373]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/RepresentativeIsland0BF32B4E4EFD8B830122228D824301C5.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Levels/RepresentativeIsland.umap'
+[2021.06.08-19.03.34:707][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/RepresentativeIsland_BuiltData" FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Levels/RepresentativeIsland_BuiltData.uasset" SILENT=true
+[2021.06.08-19.03.34:907][373]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/RepresentativeIsland_BuiltData988E54AA4E71864AF120F58DBDF7961C.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Levels/RepresentativeIsland_BuiltData.uasset'
+[2021.06.08-19.03.34:922][373]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.08-19.03.34:922][373]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/RepresentativeIsland_BuiltData.RepresentativeIsland_BuiltData
+[2021.06.08-19.03.34:922][373]LogContentValidation: Display: Validating World /Game/Levels/RepresentativeIsland.RepresentativeIsland
