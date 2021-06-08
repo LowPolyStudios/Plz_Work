@@ -4711,3 +4711,594 @@ Script Stack (0 frames):
 [2021.06.08-18.02.13:485][686]LogContentValidation: Display: Validating World /Game/Maps/Test.Test
 [2021.06.08-18.02.13:485][686]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Test_BuiltData.Test_BuiltData
 [2021.06.08-18.02.13:485][686]LogContentValidation: Display: Validating Texture2D /Game/ThirdPersonBP/Blueprints/HUD/Icons/test.test
+[2021.06.08-18.12.18:863][577]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.08-18.12.22:132][949]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.08-18.12.22:137][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.08-18.12.22:137][949]PIE: New page: PIE session: Test (Jun 8, 2021, 4:12:22 AM)
+[2021.06.08-18.12.22:175][949]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2021.06.08-18.12.22:177][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002034s)
+[2021.06.08-18.12.22:179][949]LogAIModule: Creating AISystem for world Test
+[2021.06.08-18.12.22:179][949]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2021.06.08-18.12.22:179][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003862s)
+[2021.06.08-18.12.22:202][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2021.06.08-18.12.22:208][949]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.08-18.12.22:208][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.08-18.12.22:208][949]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.08-18.12.22:208][949]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.08-18.12.22:214][949]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.08-18.12.22:214][949]LogAudioMixer: Display: 1: FrontRight
+[2021.06.08-18.12.22:233][949]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.06.08-18.12.22:234][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.08-18.12.22:234][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.08-18.12.22:234][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.08-18.12.22:234][949]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.08-18.12.22:234][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.08-18.12.22:234][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.08-18.12.22:249][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.08-18.12.22:249][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.08-18.12.22:249][949]LogInit: FAudioDevice initialized.
+[2021.06.08-18.12.22:249][949]LogAudio: Display: Audio Device (ID: 5) registered with world 'Test'.
+[2021.06.08-18.12.22:261][949]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.08-18.12.22:262][949]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2021.06.08-11.12.22
+[2021.06.08-18.12.22:262][949]LogWorld: Bringing up level for play took: 0.000475
+[2021.06.08-18.12.22:262][949]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.06.08-18.12.22:278][949]PIE: Server logged in
+[2021.06.08-18.12.22:279][949]PIE: Play in editor total start time 0.142 seconds.
+[2021.06.08-18.12.33:746][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.08-18.12.33:746][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2021.06.08-18.12.33:746][317]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2021.06.08-18.12.33:747][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.12.33:758][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.08-18.12.33:761][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.12.33:776][317]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.08-18.12.33:777][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.08-18.12.33:777][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.08-18.12.33:794][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.08-18.12.33:797][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.06.08-18.12.33:817][318]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.06.08-18.12.36:289][604]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.08-18.12.36:293][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.08-18.12.36:293][604]PIE: New page: PIE session: Test (Jun 8, 2021, 4:12:36 AM)
+[2021.06.08-18.12.36:315][604]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2021.06.08-18.12.36:317][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001853s)
+[2021.06.08-18.12.36:318][604]LogAIModule: Creating AISystem for world Test
+[2021.06.08-18.12.36:319][604]LogPlayLevel: PIE: World Init took: (0.001612s)
+[2021.06.08-18.12.36:319][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003608s)
+[2021.06.08-18.12.36:334][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.06.08-18.12.36:335][604]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.08-18.12.36:335][604]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.08-18.12.36:335][604]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.08-18.12.36:335][604]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.08-18.12.36:339][604]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.08-18.12.36:339][604]LogAudioMixer: Display: 1: FrontRight
+[2021.06.08-18.12.36:357][604]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.06.08-18.12.36:357][604]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.08-18.12.36:357][604]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.08-18.12.36:357][604]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.08-18.12.36:358][604]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.08-18.12.36:358][604]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.08-18.12.36:358][604]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.08-18.12.36:372][604]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.08-18.12.36:372][604]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.08-18.12.36:372][604]LogInit: FAudioDevice initialized.
+[2021.06.08-18.12.36:372][604]LogAudio: Display: Audio Device (ID: 6) registered with world 'Test'.
+[2021.06.08-18.12.36:379][604]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.06.08-18.12.36:380][604]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 0) at 2021.06.08-11.12.36
+[2021.06.08-18.12.36:380][604]LogWorld: Bringing up level for play took: 0.000396
+[2021.06.08-18.12.36:381][604]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.06.08-18.12.36:384][604]PIE: Server logged in
+[2021.06.08-18.12.36:385][604]PIE: Play in editor total start time 0.093 seconds.
+[2021.06.08-18.12.52:736][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.08-18.12.52:736][559]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2021.06.08-18.12.52:736][559]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2021.06.08-18.12.52:736][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.12.52:746][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.08-18.12.52:749][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.12.52:763][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.08-18.12.52:763][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.08-18.12.52:764][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.08-18.12.52:783][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.06.08-18.12.52:828][561]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.06.08-18.12.58:317][161]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.08-18.13.10:020][551]LogStaticMesh: Building static mesh Floor_400x400...
+[2021.06.08-18.13.10:152][551]LogStaticMesh: Built static mesh [0.13s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.06.08-18.13.11:231][551]LogTexture: Display: Building textures: DeprecatedTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128X128)
+[2021.06.08-18.13.11:236][551]LogTexture: Display: Building textures: DeprecatedTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128X128)
+[2021.06.08-18.13.11:243][551]LogTexture: Display: Building textures: DeprecatedTexture310E58554010446A08107499F126CE3D (BGRA8, 128X128)
+[2021.06.08-18.13.11:248][551]LogTexture: Display: Building textures: DeprecatedTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128X128)
+[2021.06.08-18.13.11:253][551]LogTexture: Display: Building textures: DeprecatedTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128X128)
+[2021.06.08-18.13.11:258][551]LogTexture: Display: Building textures: DeprecatedTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128X128)
+[2021.06.08-18.13.11:263][551]LogTexture: Display: Building textures: DeprecatedTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128X128)
+[2021.06.08-18.13.11:268][551]LogTexture: Display: Building textures: DeprecatedTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128X128)
+[2021.06.08-18.13.11:272][551]LogTexture: Display: Building textures: DeprecatedTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128X128)
+[2021.06.08-18.13.11:277][551]LogTexture: Display: Building textures: DeprecatedTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128X128)
+[2021.06.08-18.13.11:860][557]SourceControl: fatal: /Script: '/Script' is outside repository at 'D:/Games w Unreal/GithubStuff/Test/Plz_Work'
+[2021.06.08-18.13.16:857][927]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.08-18.13.16:862][927]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.08-18.13.17:919][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.06.08-18.13.17:927][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Test" FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/Autosaves/Game/Maps/Test_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.06.08-18.13.17:934][ 42]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/Test_Auto1E22E6B6D4747AB558F219A9C7961ADA1.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/Autosaves/Game/Maps/Test_Auto1.umap'
+[2021.06.08-18.13.17:934][ 42]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Test' took 0.033
+[2021.06.08-18.13.17:934][ 42]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.033
+[2021.06.08-18.13.20:575][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Test" FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Maps/Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.08-18.13.20:590][316]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.08-18.13.20:597][316]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/Test2D806BA04F29C519574BD79F6E676AB6.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Maps/Test.umap'
+[2021.06.08-18.13.20:676][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Test_BuiltData" FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Maps/Test_BuiltData.uasset" SILENT=true
+[2021.06.08-18.13.20:688][316]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/Test_BuiltData06B6A1C941E461C99345768EF1C3348A.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/Maps/Test_BuiltData.uasset'
+[2021.06.08-18.13.20:697][316]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.08-18.13.20:697][316]LogContentValidation: Display: Validating World /Game/Maps/Test.Test
+[2021.06.08-18.13.20:697][316]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Test_BuiltData.Test_BuiltData
+[2021.06.08-18.13.51:378][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.06.08-18.13.51:720][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:721][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:721][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:722][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:722][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:794][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1': Can't find file.
+[2021.06.08-18.13.51:794][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1': Can't find file.
+[2021.06.08-18.13.51:795][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2': Can't find file.
+[2021.06.08-18.13.51:795][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2': Can't find file.
+[2021.06.08-18.13.51:796][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1': Can't find file.
+[2021.06.08-18.13.51:796][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2': Can't find file.
+[2021.06.08-18.13.51:797][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1': Can't find file.
+[2021.06.08-18.13.51:798][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1': Can't find file.
+[2021.06.08-18.13.51:798][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2': Can't find file.
+[2021.06.08-18.13.51:798][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2': Can't find file.
+[2021.06.08-18.13.51:799][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3': Can't find file.
+[2021.06.08-18.13.51:799][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3': Can't find file.
+[2021.06.08-18.13.51:800][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1': Can't find file.
+[2021.06.08-18.13.51:800][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2': Can't find file.
+[2021.06.08-18.13.51:800][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3': Can't find file.
+[2021.06.08-18.13.51:837][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:838][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:838][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:839][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:839][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:839][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:841][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap_BuiltData.uasset: Failed to load '/Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2021.06.08-18.13.51:842][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap_BuiltData.uasset: Failed to load '/Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2021.06.08-18.13.51:842][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap_BuiltData.uasset: Failed to load '/Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2021.06.08-18.13.51:843][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2021.06.08-18.13.51:843][457]LoadErrors: Failed to load /Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by ThirdPersonExampleMap_BuiltData
+[2021.06.08-18.13.51:843][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/ThirdPersonBPBPBP/Maps/ThirdPersonExampleMap_BuiltData': Can't find file.
+[2021.06.08-18.13.51:844][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.51:844][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.51:845][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.51:845][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.51:847][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Cloud_Shadows': Can't find file.
+[2021.06.08-18.13.51:847][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Cloud_Shadows': Can't find file.
+[2021.06.08-18.13.51:847][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Material_Instances/Ultra_Dynamic_Sky_Mat_SA_NA': Can't find file.
+[2021.06.08-18.13.51:848][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Material_Instances/Ultra_Dynamic_Sky_Mat_SA_NA': Can't find file.
+[2021.06.08-18.13.51:849][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:849][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.51:850][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.51:913][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:914][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Cloud_Shadows': Can't find file.
+[2021.06.08-18.13.51:914][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Materials/Material_Instances/Ultra_Dynamic_Sky_Mat_SA_NA': Can't find file.
+[2021.06.08-18.13.51:914][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/aurora_gradient': Can't find file.
+[2021.06.08-18.13.51:915][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/aurora_gradient': Can't find file.
+[2021.06.08-18.13.51:915][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/blur_clouds': Can't find file.
+[2021.06.08-18.13.51:916][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/blur_clouds': Can't find file.
+[2021.06.08-18.13.51:916][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Cloud_Wisps': Can't find file.
+[2021.06.08-18.13.51:917][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Cloud_Wisps': Can't find file.
+[2021.06.08-18.13.51:917][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_classic': Can't find file.
+[2021.06.08-18.13.51:918][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_classic': Can't find file.
+[2021.06.08-18.13.51:918][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_diverse': Can't find file.
+[2021.06.08-18.13.51:919][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_diverse': Can't find file.
+[2021.06.08-18.13.51:919][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Flat_Cubemaps/Flat_PartlyCloudy': Can't find file.
+[2021.06.08-18.13.51:920][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Flat_Cubemaps/Flat_PartlyCloudy': Can't find file.
+[2021.06.08-18.13.51:920][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/MoonSprites': Can't find file.
+[2021.06.08-18.13.51:921][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/MoonSprites': Can't find file.
+[2021.06.08-18.13.51:921][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/radio': Can't find file.
+[2021.06.08-18.13.51:922][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/radio': Can't find file.
+[2021.06.08-18.13.51:922][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Stars': Can't find file.
+[2021.06.08-18.13.51:923][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Stars': Can't find file.
+[2021.06.08-18.13.51:923][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:924][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:924][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:924][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:925][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:926][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:926][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:926][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:927][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/aurora_gradient': Can't find file.
+[2021.06.08-18.13.51:927][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/blur_clouds': Can't find file.
+[2021.06.08-18.13.51:927][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Cloud_Wisps': Can't find file.
+[2021.06.08-18.13.51:928][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_classic': Can't find file.
+[2021.06.08-18.13.51:928][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/clouds_diverse': Can't find file.
+[2021.06.08-18.13.51:928][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/MoonSprites': Can't find file.
+[2021.06.08-18.13.51:929][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/radio': Can't find file.
+[2021.06.08-18.13.51:929][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Stars': Can't find file.
+[2021.06.08-18.13.51:930][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/UltraDynamicSky/Textures/Flat_Cubemaps/Flat_PartlyCloudy': Can't find file.
+[2021.06.08-18.13.51:953][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:953][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:954][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:954][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:955][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:955][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:955][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:955][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.51:956][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Materials/Cloud_Shadows': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Materials/Material_Instances/Ultra_Dynamic_Sky_Mat_SA_NA': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Materials/Cloud_Shadows': Can't find file.
+[2021.06.08-18.13.51:957][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Materials/Material_Instances/Ultra_Dynamic_Sky_Mat_SA_NA': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/aurora_gradient': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/blur_clouds': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Cloud_Wisps': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/clouds_classic': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/clouds_diverse': Can't find file.
+[2021.06.08-18.13.51:958][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Flat_Cubemaps/Flat_PartlyCloudy': Can't find file.
+[2021.06.08-18.13.51:959][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/MoonSprites': Can't find file.
+[2021.06.08-18.13.51:959][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/radio': Can't find file.
+[2021.06.08-18.13.51:959][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Stars': Can't find file.
+[2021.06.08-18.13.51:959][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:959][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:960][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:960][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:960][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:960][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:960][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Blueprints/Ultra_Dynamic_Sky_BP': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/aurora_gradient': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/blur_clouds': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Cloud_Wisps': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/clouds_classic': Can't find file.
+[2021.06.08-18.13.51:961][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/clouds_diverse': Can't find file.
+[2021.06.08-18.13.51:962][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/MoonSprites': Can't find file.
+[2021.06.08-18.13.51:962][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/radio': Can't find file.
+[2021.06.08-18.13.51:962][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Stars': Can't find file.
+[2021.06.08-18.13.51:962][457]LogLinker: Warning: Failed to load '/Game/UltraDynamicSky/Textures/Flat_Cubemaps/Flat_PartlyCloudy': Can't find file.
+[2021.06.08-18.13.51:970][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.51:970][457]LogLinker: Warning: Failed to load '/Game/CartoonWaterShader/Blueprints/Underwater/BP_Underwater_ScreenEffect': Can't find file.
+[2021.06.08-18.13.52:043][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1': Can't find file.
+[2021.06.08-18.13.52:043][457]LoadErrors: Failed to load /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1.Forest_Night_Time_1 Referenced by SoundNodeWavePlayer_0
+[2021.06.08-18.13.52:043][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2': Can't find file.
+[2021.06.08-18.13.52:043][457]LoadErrors: Failed to load /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2.Forest_Night_Time_2 Referenced by SoundNodeWavePlayer_1
+[2021.06.08-18.13.52:044][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\ForestNight.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3': Can't find file.
+[2021.06.08-18.13.52:044][457]LoadErrors: Failed to load /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3.Forest_Night_Time_3 Referenced by SoundNodeWavePlayer_2
+[2021.06.08-18.13.52:093][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP': Can't find file.
+[2021.06.08-18.13.52:093][457]LoadErrors: Failed to load /Game/CartoonWaterShader/Materials/Underwater/M_Underwater_River_PP.M_Underwater_River_PP Referenced by PostProcessVolume2_3
+[2021.06.08-18.13.52:093][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Maps\ThirdPersonExampleMap.umap: Failed to load '/Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP': Can't find file.
+[2021.06.08-18.13.52:093][457]LoadErrors: Failed to load /Game/CartoonWaterShader/Materials/Underwater/M_BoxBlur_and_ScreenDistortion_PP.M_BoxBlur_and_ScreenDistortion_PP Referenced by PostProcessVolume2_3
+[2021.06.08-18.13.52:200][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2': Can't find file.
+[2021.06.08-18.13.52:200][457]LoadErrors: Failed to load /Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2.Forest_W_animals_Ambiance_2 Referenced by SoundNodeWavePlayer_15
+[2021.06.08-18.13.52:201][457]LogLinker: Warning: [AssetLog] D:\Games w Unreal\GithubStuff\Test\Plz_Work\Content\ThirdPersonBP\Blueprints\SFX\BirdForestCue.uasset: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1': Can't find file.
+[2021.06.08-18.13.52:201][457]LoadErrors: Failed to load /Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1.Forest_W_animals_Ambiance_1 Referenced by SoundNodeWavePlayer_16
+[2021.06.08-18.13.52:207][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_17...
+[2021.06.08-18.13.52:207][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_17.Chopping_wood_17 will be modified from 40 to 40.
+[2021.06.08-18.13.52:229][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 94144 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_17.Chopping_wood_17.
+[2021.06.08-18.13.52:229][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_16...
+[2021.06.08-18.13.52:229][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_16.Chopping_wood_16 will be modified from 40 to 40.
+[2021.06.08-18.13.52:248][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 100180 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_16.Chopping_wood_16.
+[2021.06.08-18.13.52:249][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_18...
+[2021.06.08-18.13.52:249][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_18.Chopping_wood_18 will be modified from 40 to 40.
+[2021.06.08-18.13.52:272][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 105688 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_18.Chopping_wood_18.
+[2021.06.08-18.13.52:272][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_9...
+[2021.06.08-18.13.52:272][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_9.Bird_tweet_9 will be modified from 40 to 40.
+[2021.06.08-18.13.52:284][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 92860 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_9.Bird_tweet_9.
+[2021.06.08-18.13.52:292][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_6...
+[2021.06.08-18.13.52:292][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_6.Chopping_wood_6 will be modified from 40 to 40.
+[2021.06.08-18.13.52:314][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 154192 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_6.Chopping_wood_6.
+[2021.06.08-18.13.52:315][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_9...
+[2021.06.08-18.13.52:315][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_9.Chopping_wood_9 will be modified from 40 to 40.
+[2021.06.08-18.13.52:332][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 79200 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_9.Chopping_wood_9.
+[2021.06.08-18.13.52:333][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_5...
+[2021.06.08-18.13.52:333][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_5.Blacksmith_hitting_hammer_5 will be modified from 40 to 40.
+[2021.06.08-18.13.52:352][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 150136 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_5.Blacksmith_hitting_hammer_5.
+[2021.06.08-18.13.52:353][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_6...
+[2021.06.08-18.13.52:353][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_6.Blacksmith_hitting_hammer_6 will be modified from 40 to 40.
+[2021.06.08-18.13.52:382][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 216608 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_6.Blacksmith_hitting_hammer_6.
+[2021.06.08-18.13.52:382][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_4...
+[2021.06.08-18.13.52:382][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_4.Blacksmith_hitting_hammer_4 will be modified from 40 to 40.
+[2021.06.08-18.13.52:401][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 153152 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_4.Blacksmith_hitting_hammer_4.
+[2021.06.08-18.13.52:402][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Staff_Hitting__Flesh__4...
+[2021.06.08-18.13.52:403][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__4.Staff_Hitting__Flesh__4 will be modified from 40 to 40.
+[2021.06.08-18.13.52:432][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 206508 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__4.Staff_Hitting__Flesh__4.
+[2021.06.08-18.13.52:434][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Staff_Hitting__Flesh__3...
+[2021.06.08-18.13.52:434][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__3.Staff_Hitting__Flesh__3 will be modified from 40 to 40.
+[2021.06.08-18.13.52:472][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 208860 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__3.Staff_Hitting__Flesh__3.
+[2021.06.08-18.13.52:474][457]LogMaterial: Display: Missing cached shader map for material Material_025, compiling. 
+[2021.06.08-18.13.52:488][457]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/Beaver/Animations/beaverrunwalk.beaverrunwalk
+[2021.06.08-18.13.52:488][457]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/Beaver/Animations/Idle.Idle
+[2021.06.08-18.13.52:488][457]LogSkeletalMesh: Building Skeletal Mesh beaverattack...
+[2021.06.08-18.13.52:491][457]LogSkeletalMesh: Display: Skeletal mesh of 10 bone influences requires unlimited bone influence mode on. Influence truncated to 8.
+[2021.06.08-18.13.52:491][457]LogSkeletalMesh: Display: Skeletal mesh of 10 bone influences requires unlimited bone influence mode on. Influence truncated to 8.
+[2021.06.08-18.13.52:491][457]LogSkeletalMesh: Display: Skeletal mesh of 10 bone influences requires unlimited bone influence mode on. Influence truncated to 8.
+[2021.06.08-18.13.52:491][457]LogSkeletalMesh: Display: Skeletal mesh of 10 bone influences requires unlimited bone influence mode on. Influence truncated to 8.
+[2021.06.08-18.13.52:493][457]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.06.08-18.13.52:493][457]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2021.06.08-18.13.52:493][457]LogSkeletalMesh: Section 0: Material=0, 246 triangles
+[2021.06.08-18.13.52:493][457]LogSkeletalMesh: Section 1: Material=1, 174 triangles
+[2021.06.08-18.13.52:493][457]LogSkeletalMesh: Section 2: Material=2, 24 triangles
+[2021.06.08-18.13.52:494][457]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Enemies/Beaver/Materials/beaverattack.beaverattack
+[2021.06.08-18.13.52:495][457]LogMaterial: Display: Missing cached shader map for material Material_007, compiling. 
+[2021.06.08-18.13.52:530][457]LogSkeletalMesh: Building Skeletal Mesh mooseattack...
+[2021.06.08-18.13.52:542][457]LogSkeletalMesh: Section 0: Material=0, 348 triangles
+[2021.06.08-18.13.52:542][457]LogSkeletalMesh: Section 1: Material=1, 692 triangles
+[2021.06.08-18.13.52:542][457]LogSkeletalMesh: Section 2: Material=2, 40 triangles
+[2021.06.08-18.13.52:545][457]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/ThirdPersonBP/Blueprints/Enemies/Moose/Materials/mooseattack.mooseattack
+[2021.06.08-18.13.52:546][457]LogMaterial: Display: Missing cached shader map for material Material_025, compiling. 
+[2021.06.08-18.13.52:553][457]LogStaticMesh: Building static mesh buildings_Cylinder_002...
+[2021.06.08-18.13.52:687][457]LogStaticMesh: Built static mesh [0.13s] /Game/ThirdPersonBP/Blueprints/Nature/Meshes/buildings_Cylinder_002.buildings_Cylinder_002
+[2021.06.08-18.13.52:856][457]LogMaterial: Display: Missing cached shader map for material Material_028, compiling. 
+[2021.06.08-18.13.52:869][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Staff_Hitting__Flesh__5...
+[2021.06.08-18.13.52:869][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__5.Staff_Hitting__Flesh__5 will be modified from 40 to 40.
+[2021.06.08-18.13.52:905][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 237908 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__5.Staff_Hitting__Flesh__5.
+[2021.06.08-18.13.52:906][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave PickUp-SFX...
+[2021.06.08-18.13.52:906][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/PickUp-SFX.PickUp-SFX will be modified from 40 to 40.
+[2021.06.08-18.13.52:918][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 53248 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/PickUp-SFX.PickUp-SFX.
+[2021.06.08-18.13.52:919][457]LogSkeletalMesh: Building Skeletal Mesh TreeDeath...
+[2021.06.08-18.13.52:923][457]LogSkeletalMesh: Section 0: Material=0, 90 triangles
+[2021.06.08-18.13.52:923][457]LogSkeletalMesh: Section 1: Material=1, 244 triangles
+[2021.06.08-18.13.52:924][457]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Enemies/DemonTree/TreeDeath.TreeDeath
+[2021.06.08-18.13.52:926][457]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.06.08-18.13.52:939][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_10...
+[2021.06.08-18.13.52:939][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_10.Wood_Impact_Hard_surface_10 will be modified from 40 to 40.
+[2021.06.08-18.13.52:980][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 370544 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_10.Wood_Impact_Hard_surface_10.
+[2021.06.08-18.13.52:980][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_1...
+[2021.06.08-18.13.52:980][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_1.Wood_Impact_Hard_surface_1 will be modified from 40 to 40.
+[2021.06.08-18.13.53:014][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 243360 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_1.Wood_Impact_Hard_surface_1.
+[2021.06.08-18.13.53:031][457]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.06.08-18.13.53:052][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Staff_Hitting__Flesh__1...
+[2021.06.08-18.13.53:052][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__1.Staff_Hitting__Flesh__1 will be modified from 40 to 40.
+[2021.06.08-18.13.53:085][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 156636 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__1.Staff_Hitting__Flesh__1.
+[2021.06.08-18.13.53:087][457]LogMaterial: Display: Missing cached shader map for material Material_024, compiling. 
+[2021.06.08-18.13.53:101][457]LogMaterial: Display: Missing cached shader map for material Material_013, compiling. 
+[2021.06.08-18.13.53:113][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_5...
+[2021.06.08-18.13.53:113][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_5.Wood_Impact_Hard_surface_5 will be modified from 40 to 40.
+[2021.06.08-18.13.53:146][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 286100 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_5.Wood_Impact_Hard_surface_5.
+[2021.06.08-18.13.53:148][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_2...
+[2021.06.08-18.13.53:148][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_2.Chopping_wood_2 will be modified from 40 to 40.
+[2021.06.08-18.13.53:165][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 121156 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_2.Chopping_wood_2.
+[2021.06.08-18.13.53:166][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_8...
+[2021.06.08-18.13.53:166][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_8.Blacksmith_hitting_hammer_8 will be modified from 40 to 40.
+[2021.06.08-18.13.53:188][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 144760 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_8.Blacksmith_hitting_hammer_8.
+[2021.06.08-18.13.53:189][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_7...
+[2021.06.08-18.13.53:189][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_7.Blacksmith_hitting_hammer_7 will be modified from 40 to 40.
+[2021.06.08-18.13.53:211][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 177672 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_7.Blacksmith_hitting_hammer_7.
+[2021.06.08-18.13.53:212][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_8...
+[2021.06.08-18.13.53:212][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_8.Bird_tweet_8 will be modified from 40 to 40.
+[2021.06.08-18.13.53:228][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 115720 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_8.Bird_tweet_8.
+[2021.06.08-18.13.53:228][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_7...
+[2021.06.08-18.13.53:228][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_7.Bird_tweet_7 will be modified from 40 to 40.
+[2021.06.08-18.13.53:239][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 69620 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_7.Bird_tweet_7.
+[2021.06.08-18.13.53:246][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Staff_Hitting__Flesh__2...
+[2021.06.08-18.13.53:246][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__2.Staff_Hitting__Flesh__2 will be modified from 40 to 40.
+[2021.06.08-18.13.53:275][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 161820 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Staff_Hitting__Flesh__2.Staff_Hitting__Flesh__2.
+[2021.06.08-18.13.53:276][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_8...
+[2021.06.08-18.13.53:276][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_8.Wood_Impact_Hard_surface_8 will be modified from 40 to 40.
+[2021.06.08-18.13.53:304][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 250176 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_8.Wood_Impact_Hard_surface_8.
+[2021.06.08-18.13.53:305][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_6...
+[2021.06.08-18.13.53:305][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_6.Wood_Impact_Hard_surface_6 will be modified from 40 to 40.
+[2021.06.08-18.13.53:325][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 177272 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_6.Wood_Impact_Hard_surface_6.
+[2021.06.08-18.13.53:326][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_7...
+[2021.06.08-18.13.53:326][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_7.Wood_Impact_Hard_surface_7 will be modified from 40 to 40.
+[2021.06.08-18.13.53:367][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 396500 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_7.Wood_Impact_Hard_surface_7.
+[2021.06.08-18.13.53:382][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Canada_Man...
+[2021.06.08-18.13.53:394][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Canada_Man.Canada_Man will be modified from 40 to 40.
+[2021.06.08-18.13.54:772][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 17013016 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Canada_Man.Canada_Man.
+[2021.06.08-18.13.54:777][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_14...
+[2021.06.08-18.13.54:777][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_14.Chopping_wood_14 will be modified from 40 to 40.
+[2021.06.08-18.13.54:799][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 98604 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_14.Chopping_wood_14.
+[2021.06.08-18.13.54:800][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_12...
+[2021.06.08-18.13.54:800][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_12.Chopping_wood_12 will be modified from 40 to 40.
+[2021.06.08-18.13.54:819][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 73432 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_12.Chopping_wood_12.
+[2021.06.08-18.13.54:820][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_13...
+[2021.06.08-18.13.54:820][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_13.Chopping_wood_13 will be modified from 40 to 40.
+[2021.06.08-18.13.54:842][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 93360 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_13.Chopping_wood_13.
+[2021.06.08-18.13.54:843][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_15...
+[2021.06.08-18.13.54:843][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_15.Chopping_wood_15 will be modified from 40 to 40.
+[2021.06.08-18.13.54:868][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 89948 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_15.Chopping_wood_15.
+[2021.06.08-18.13.54:868][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_11...
+[2021.06.08-18.13.54:868][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_11.Chopping_wood_11 will be modified from 40 to 40.
+[2021.06.08-18.13.54:893][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 120588 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_11.Chopping_wood_11.
+[2021.06.08-18.13.54:894][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_8...
+[2021.06.08-18.13.54:894][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_8.Chopping_wood_8 will be modified from 40 to 40.
+[2021.06.08-18.13.54:911][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 54808 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_8.Chopping_wood_8.
+[2021.06.08-18.13.54:911][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_7...
+[2021.06.08-18.13.54:911][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_7.Chopping_wood_7 will be modified from 40 to 40.
+[2021.06.08-18.13.54:929][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 112236 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_7.Chopping_wood_7.
+[2021.06.08-18.13.54:930][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_4...
+[2021.06.08-18.13.54:930][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_4.Bird_tweet_4 will be modified from 40 to 40.
+[2021.06.08-18.13.54:952][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 57988 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_4.Bird_tweet_4.
+[2021.06.08-18.13.54:953][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_6...
+[2021.06.08-18.13.54:953][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_6.Bird_tweet_6 will be modified from 40 to 40.
+[2021.06.08-18.13.54:964][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 80912 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_6.Bird_tweet_6.
+[2021.06.08-18.13.54:964][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_5...
+[2021.06.08-18.13.54:964][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_5.Bird_tweet_5 will be modified from 40 to 40.
+[2021.06.08-18.13.54:985][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 128892 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_5.Bird_tweet_5.
+[2021.06.08-18.13.54:986][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_5...
+[2021.06.08-18.13.54:986][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_5.Chopping_wood_5 will be modified from 40 to 40.
+[2021.06.08-18.13.55:010][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 112764 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_5.Chopping_wood_5.
+[2021.06.08-18.13.55:010][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_3...
+[2021.06.08-18.13.55:010][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_3.Chopping_wood_3 will be modified from 40 to 40.
+[2021.06.08-18.13.55:028][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 108564 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_3.Chopping_wood_3.
+[2021.06.08-18.13.55:029][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_4...
+[2021.06.08-18.13.55:030][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_4.Chopping_wood_4 will be modified from 40 to 40.
+[2021.06.08-18.13.55:053][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 115908 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_4.Chopping_wood_4.
+[2021.06.08-18.13.55:053][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_1...
+[2021.06.08-18.13.55:053][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_1.Blacksmith_hitting_hammer_1 will be modified from 40 to 40.
+[2021.06.08-18.13.55:072][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 149476 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_1.Blacksmith_hitting_hammer_1.
+[2021.06.08-18.13.55:072][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_3...
+[2021.06.08-18.13.55:072][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_3.Blacksmith_hitting_hammer_3 will be modified from 40 to 40.
+[2021.06.08-18.13.55:093][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 152480 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_3.Blacksmith_hitting_hammer_3.
+[2021.06.08-18.13.55:094][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_2...
+[2021.06.08-18.13.55:094][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_2.Blacksmith_hitting_hammer_2 will be modified from 40 to 40.
+[2021.06.08-18.13.55:112][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 155244 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_2.Blacksmith_hitting_hammer_2.
+[2021.06.08-18.13.55:136][457]LogSkeletalMesh: Building Skeletal Mesh SmallTree...
+[2021.06.08-18.13.55:137][457]LogSkeletalMesh: Section 0: Material=0, 54 triangles
+[2021.06.08-18.13.55:138][457]LogSkeletalMesh: Section 1: Material=1, 120 triangles
+[2021.06.08-18.13.55:138][457]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Nature/Meshes/SmallTree.SmallTree
+[2021.06.08-18.13.55:139][457]LogMaterial: Display: Missing cached shader map for material Material_025, compiling. 
+[2021.06.08-18.13.55:152][457]LogLinker: Warning: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1': Can't find file.
+[2021.06.08-18.13.55:152][457]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_1.Forest_Night_Time_1'
+[2021.06.08-18.13.55:152][457]LogLinker: Warning: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2': Can't find file.
+[2021.06.08-18.13.55:152][457]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_2.Forest_Night_Time_2'
+[2021.06.08-18.13.55:152][457]LogLinker: Warning: Failed to load '/Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3': Can't find file.
+[2021.06.08-18.13.55:152][457]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Ultimate_SFX_Bundle/Natural_Ambiances_VOL_2/Wavs/Forest_Night_Time/Forest_Night_Time_3.Forest_Night_Time_3'
+[2021.06.08-18.13.55:163][457]LogMaterial: Display: Missing cached shader map for material G, compiling. 
+[2021.06.08-18.13.55:188][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Blacksmith_hitting_hammer_9...
+[2021.06.08-18.13.55:188][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_9.Blacksmith_hitting_hammer_9 will be modified from 40 to 40.
+[2021.06.08-18.13.55:205][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 133860 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Blacksmith_hitting_hammer_9.Blacksmith_hitting_hammer_9.
+[2021.06.08-18.13.55:252][457]LogStaticMesh: Building static mesh Log...
+[2021.06.08-18.13.55:258][457]LogStaticMesh: Built static mesh [0.01s] /Game/ThirdPersonBP/Blueprints/HUD/Icons/Log.Log
+[2021.06.08-18.13.55:262][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_1...
+[2021.06.08-18.13.55:262][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_1.Bird_tweet_1 will be modified from 40 to 40.
+[2021.06.08-18.13.55:281][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 86556 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_1.Bird_tweet_1.
+[2021.06.08-18.13.55:281][457]LogLinker: Warning: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2': Can't find file.
+[2021.06.08-18.13.55:281][457]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_2.Forest_W_animals_Ambiance_2'
+[2021.06.08-18.13.55:281][457]LogLinker: Warning: Failed to load '/Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1': Can't find file.
+[2021.06.08-18.13.55:281][457]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Ultimate_SFX_Bundle/Ultimate_Animal_Sounds/Wavs/Ambiance/Forest_W_animals_Ambiance_1.Forest_W_animals_Ambiance_1'
+[2021.06.08-18.13.55:283][457]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/Moose/Materials/mooseattack_Anim.mooseattack_Anim
+[2021.06.08-18.13.55:283][457]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/Moose/Materials/Running.Running
+[2021.06.08-18.13.55:283][457]LogMaterial: Display: Missing cached shader map for material Material_023, compiling. 
+[2021.06.08-18.13.55:292][457]LogMaterial: Display: Missing cached shader map for material Material_016, compiling. 
+[2021.06.08-18.13.55:331][457]LogStaticMesh: Building static mesh BeaverHut...
+[2021.06.08-18.13.55:334][457]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPersonBP/Blueprints/Nature/Meshes/BeaverHut.BeaverHut
+[2021.06.08-18.13.55:336][457]LogMaterial: Display: Missing cached shader map for material 53343, compiling. 
+[2021.06.08-18.13.55:344][457]LogMaterial: Display: Missing cached shader map for material Material_008, compiling. 
+[2021.06.08-18.13.55:369][457]LogMaterial: Display: Missing cached shader map for material Material_010, compiling. 
+[2021.06.08-18.13.55:381][457]LogMaterial: Display: Missing cached shader map for material Material_010, compiling. 
+[2021.06.08-18.13.55:389][457]LogMaterial: Display: Missing cached shader map for material Material_024, compiling. 
+[2021.06.08-18.13.55:395][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_10...
+[2021.06.08-18.13.55:395][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_10.Bird_tweet_10 will be modified from 40 to 40.
+[2021.06.08-18.13.55:416][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 82792 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_10.Bird_tweet_10.
+[2021.06.08-18.13.55:417][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_2...
+[2021.06.08-18.13.55:417][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_2.Bird_tweet_2 will be modified from 40 to 40.
+[2021.06.08-18.13.55:433][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 64448 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_2.Bird_tweet_2.
+[2021.06.08-18.13.55:433][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_4...
+[2021.06.08-18.13.55:434][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_4.Wood_Impact_Hard_surface_4 will be modified from 40 to 40.
+[2021.06.08-18.13.55:456][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 169928 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_4.Wood_Impact_Hard_surface_4.
+[2021.06.08-18.13.55:456][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_2...
+[2021.06.08-18.13.55:456][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_2.Wood_Impact_Hard_surface_2 will be modified from 40 to 40.
+[2021.06.08-18.13.55:484][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 247552 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_2.Wood_Impact_Hard_surface_2.
+[2021.06.08-18.13.55:485][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_3...
+[2021.06.08-18.13.55:485][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_3.Wood_Impact_Hard_surface_3 will be modified from 40 to 40.
+[2021.06.08-18.13.55:520][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 217140 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_3.Wood_Impact_Hard_surface_3.
+[2021.06.08-18.13.55:521][457]LogMaterial: Display: Missing cached shader map for material Out, compiling. 
+[2021.06.08-18.13.55:532][457]LogMaterial: Display: Missing cached shader map for material Oak, compiling. 
+[2021.06.08-18.13.55:544][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Bird_tweet_3...
+[2021.06.08-18.13.55:544][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_3.Bird_tweet_3 will be modified from 40 to 40.
+[2021.06.08-18.13.55:552][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 60212 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Bird_tweet_3.Bird_tweet_3.
+[2021.06.08-18.13.55:570][457]LogMaterial: Display: Missing cached shader map for material HouseOutline, compiling. 
+[2021.06.08-18.13.55:593][457]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.06.08-18.13.55:599][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_1...
+[2021.06.08-18.13.55:599][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_1.Chopping_wood_1 will be modified from 40 to 40.
+[2021.06.08-18.13.55:614][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 97028 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_1.Chopping_wood_1.
+[2021.06.08-18.13.55:615][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Chopping_wood_10...
+[2021.06.08-18.13.55:615][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_10.Chopping_wood_10 will be modified from 40 to 40.
+[2021.06.08-18.13.55:634][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 65300 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Chopping_wood_10.Chopping_wood_10.
+[2021.06.08-18.13.55:635][457]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Wood_Impact_Hard_surface_9...
+[2021.06.08-18.13.55:635][457]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_9.Wood_Impact_Hard_surface_9 will be modified from 40 to 40.
+[2021.06.08-18.13.55:663][457]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 262764 while cooking SoundWave /Game/ThirdPersonBP/Blueprints/SFX/WAV/Wood_Impact_Hard_surface_9.Wood_Impact_Hard_surface_9.
+[2021.06.08-18.13.55:728][457]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 419
+[2021.06.08-18.13.56:235][457]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 409
+[2021.06.08-18.13.56:257][457]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.06.08-18.13.56:257][457]Cmd: MAP LOAD FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.08-18.13.56:257][457]LightingResults: New page: Lighting Build
+[2021.06.08-18.13.56:257][457]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2021.06.08-18.13.56:295][457]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2021.06.08-18.13.56:295][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.13.56:296][457]MapCheck: New page: Map Check
+[2021.06.08-18.13.56:296][457]LightingResults: New page: Lighting Build
+[2021.06.08-18.13.56:323][457]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.08-18.13.56:384][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.06.08-18.13.56:406][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2021.06.08-18.13.56:424][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.06.08-18.13.56:424][457]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2021.06.08-18.13.57:152][457]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.08-18.13.57:152][457]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.08-18.13.57:250][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.06.08-18.13.57:260][457]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.08-18.13.57:261][457]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.343ms to complete.
+[2021.06.08-18.13.57:261][457]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.004
+[2021.06.08-18.13.57:291][457]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Failed import for MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData [redirection] in /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap Referenced by export Level /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Moon_Root': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sun_Root': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Moon': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Sun': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'HeightFog': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_0': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Ultra_Dynamic_Sky_Sphere': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'MaterialInstanceDynamic_0': StaticMeshComponent /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2.Ultra_Dynamic_Sky_Sphere
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PS_UnderwaterDirt': BP_Underwater_ScreenEffect_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Underwater_ScreenEffect_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Exposure': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Underwater_ScreenEffect_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Underwater_ScreenEffect_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SkyAtmosphere': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Capture Based Sky Light': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CubeMap_Sky Light': Ultra_Dynamic_Sky_BP_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Ultra_Dynamic_Sky_BP_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Timeline_0': BP_Underwater_ScreenEffect_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Underwater_ScreenEffect_2
+[2021.06.08-18.13.57:291][457]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Timeline_1': BP_Underwater_ScreenEffect_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Underwater_ScreenEffect_2
+[2021.06.08-18.13.57:368][458]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Character/Animations/TitleSitting.TitleSitting
+[2021.06.08-18.13.57:368][458]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/DemonTree/TreeWalk.TreeWalk
+[2021.06.08-18.13.57:427][459]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Enemies/Moose/Materials/Attack.Attack
+[2021.06.08-18.13.58:661][558]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 399
+[2021.06.08-18.13.59:109][596]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 389
+[2021.06.08-18.14.03:068][ 19]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 379
+[2021.06.08-18.14.03:497][ 66]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 369
+[2021.06.08-18.14.06:612][408]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 359
+[2021.06.08-18.14.07:675][498]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 349
+[2021.06.08-18.14.10:453][797]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 339
+[2021.06.08-18.14.11:478][906]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 329
+[2021.06.08-18.14.14:767][269]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 319
+[2021.06.08-18.14.14:832][276]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 309
+[2021.06.08-18.14.17:997][622]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 299
+[2021.06.08-18.14.19:156][752]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 289
+[2021.06.08-18.14.21:715][ 36]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 279
+[2021.06.08-18.14.22:959][175]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 269
+[2021.06.08-18.14.25:077][408]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 259
+[2021.06.08-18.14.26:951][616]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 249
+[2021.06.08-18.14.28:537][786]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 239
+[2021.06.08-18.14.31:023][ 58]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 229
+[2021.06.08-18.14.32:837][248]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 219
+[2021.06.08-18.14.35:318][513]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 209
+[2021.06.08-18.14.37:085][703]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 199
+[2021.06.08-18.14.39:119][927]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 189
+[2021.06.08-18.14.40:352][ 48]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 179
+[2021.06.08-18.14.43:490][254]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 169
+[2021.06.08-18.14.44:928][342]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 159
+[2021.06.08-18.14.47:025][525]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 149
+[2021.06.08-18.14.49:267][645]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 139
+[2021.06.08-18.14.51:316][759]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 129
+[2021.06.08-18.14.52:960][850]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 119
+[2021.06.08-18.14.55:522][  3]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 109
+[2021.06.08-18.14.56:885][ 92]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 99
+[2021.06.08-18.14.58:954][228]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 89
+[2021.06.08-18.15.00:436][324]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 79
+[2021.06.08-18.15.02:779][478]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 69
+[2021.06.08-18.15.03:977][555]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 59
+[2021.06.08-18.15.06:524][724]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 49
+[2021.06.08-18.15.07:359][778]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2021.06.08-18.15.10:664][988]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.06.08-18.15.11:298][ 30]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.06.08-18.15.15:178][287]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2021.06.08-18.15.15:315][296]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2021.06.08-18.15.16:871][377]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.06.08-18.15.21:641][845]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.06.08-18.15.22:278][845]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/ThirdPersonExampleMap100691904DE68E96B372FB9ED61D5A0B.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.06.08-18.15.22:309][845]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.06.08-18.15.22:309][845]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
