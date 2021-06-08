@@ -5302,3 +5302,21 @@ Script Stack (0 frames):
 [2021.06.08-18.15.22:278][845]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/ThirdPersonExampleMap100691904DE68E96B372FB9ED61D5A0B.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
 [2021.06.08-18.15.22:309][845]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2021.06.08-18.15.22:309][845]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.06.08-18.16.53:585][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.06.08-18.16.53:601][421]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.06.08-18.16.53:602][421]Cmd: MAP LOAD FILE="../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.08-18.16.53:602][421]LightingResults: New page: Lighting Build
+[2021.06.08-18.16.53:602][421]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2021.06.08-18.16.53:630][421]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.08-18.16.53:630][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.08-18.16.53:631][421]MapCheck: New page: Map Check
+[2021.06.08-18.16.53:631][421]LightingResults: New page: Lighting Build
+[2021.06.08-18.16.53:659][421]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.08-18.16.53:679][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.06.08-18.16.53:850][421]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2021.06.08-18.16.53:851][421]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.06.08-18.16.54:695][421]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.08-18.16.54:757][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.06.08-18.16.54:773][421]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.08-18.16.54:774][421]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.298ms to complete.
+[2021.06.08-18.16.54:774][421]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.172
