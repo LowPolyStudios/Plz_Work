@@ -821,3 +821,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.08-17.47.24:414][ 14]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
 [2021.06.08-17.47.24:440][ 17]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
 [2021.06.08-17.47.24:931][ 76]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.06.08-17.47.35:780][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.08-17.47.35:833][656]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/ThirdPersonExampleMap7A888E55456BF08734AF0790EE5713F5.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.06.08-17.47.36:235][656]LogSavePackage: Moving '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Saved/ThirdPersonExampleMap_BuiltData0822DD16416C1702EA8699896C175F9A.tmp' to '../../../../../Games w Unreal/GithubStuff/Test/Plz_Work/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.06.08-17.47.36:254][656]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.08-17.47.36:254][656]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.06.08-17.47.36:254][656]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
